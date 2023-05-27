@@ -1,0 +1,10 @@
+MODEL:
+  arch: interpcnn2
+
+TEST:
+  exp_name: interpcnn2_train
+  num_points: 1024
+  test_batch_size: 128
+  eval: True
+  dropout: 0.5
+  gpus: [2, 3]
